@@ -1,0 +1,182 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #E5E5E5;
+}
+
+main {
+    background-color: white;
+    margin: 0 auto;
+    width: 1440px;
+}
+
+header {
+    display: flex;
+    width: 1440px;
+    height: 118px;
+    background-color: #9ECEFA;
+    justify-content: space-between;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+}
+
+h1 {
+    color: #87119a;
+    font-family: "Fascinate", cursive;
+    font-weight: 900;
+    font-size: 52px;
+    line-height: 69px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 30px;
+}
+
+nav ul {
+    display: flex;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+nav ul li {
+    padding: 20px;
+    list-style: none;
+}
+
+nav ul li p {
+    text-decoration: none;
+    color: gray;
+    font-weight: 400;
+    font-size: 24px;
+}
+
+li p:hover {
+    text-decoration: underline;
+    color: #87119a;
+}
+
+section {
+    padding-top: 30px;
+    margin: 30px;
+  }
+
+  h2 {
+    margin-left: 5px;
+    padding-left: 20px;
+    padding-top: 12px;
+    height: 52px;
+    color: #87119a;
+    text-transform: uppercase;
+    border-left: 8px solid #87119a;
+    }
+
+    p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    margin: 20px 10px;
+    }
+      
+    .imagenes-nosotros .imagenes-servicios{
+    border-radius: 8px;
+    width: 410px;
+    height: 251px;
+    }
+
+    .imagenes-nosotros {
+     margin-left: 10px;
+    }
+
+    .img1 {
+    margin-left: 20px;
+    }
+
+    .imagenes-servicios {
+    margin-left: 200px;
+    }
+
+    .img2 {
+    margin-left: 50px;
+    }
+
+    .img2-2 {
+    margin-left: 300px;
+    margin-top: 30px;
+    }
+
+    .imagenes-portafolio {
+    border-radius: 8px;
+    margin-left: 10px;
+    }
+
+    .img3 {
+    margin-left: 40px;
+    margin-top: 40px;
+    }
+
+    .imagenes-contacto {
+    width: 892px;
+    height: 545px;
+    }  
+    
+    .datos-contacto {
+    position: absolute;
+    margin-left: 930px;
+    margin-top: -550px;
+    width: 350px;  
+    font-weight: 700;
+    }
+
+    .mayusculas {
+    text-transform: uppercase;
+    }
+
+    .negrita {
+    font-weight: bold;
+    }
+
+    footer {
+    width: 1440px;
+    height: 77px;
+    background: #9ecefa;
+    display: flex;
+    justify-content: space-between;
+    }
+
+    footer p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    }
+
+    footer p span {
+    font-weight: 600;
+    color: #87119a;
+    }
+/*
+
+  footer p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+  }
+  footer p span {
+    font-weight: 600;
+    color: #87119a;
+  }
